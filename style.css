@@ -1,0 +1,82 @@
+body {
+  color: white;
+  font-family: "Lexend Deca";
+  font-size: 15px;
+  height: 100vh;
+  width: 100vw;
+  background-color: hsl(0, 0%, 95%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 50%;
+  height: 60%;
+  display: flex;
+}
+main div {
+  padding: 20px;
+}
+main .header {
+  padding-left: 15px;
+}
+.header {
+  font-family: "Big Shoulders Display";
+  color: hsl(0, 0%, 95%);
+}
+
+.description {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0 0 10px;
+}
+.SUV {
+  background-color: hsl(184, 100%, 22%);
+}
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 10px 10px 0;
+}
+.button {
+  background-color: hsl(0, 0%, 95%);
+  font-weight: 700;
+  border-radius: 25px;
+  margin-top: 15px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 0 5px lightgray;
+}
+.sedan .button {
+  color: hsl(31, 77%, 52%);
+}
+.sedan .button:hover {
+  border: 2px solid hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(31, 77%, 52%);
+}
+.SUV .button {
+  color: hsl(184, 100%, 22%);
+}
+.SUV .button:hover {
+  border: 2px solid hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(184, 100%, 22%);
+}
+.luxury .button {
+  color: hsl(179, 100%, 13%);
+}
+.luxury .button:hover {
+  border: 2px solid hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(179, 100%, 13%);
+}
+a {
+  text-decoration: none;
+}
+img {
+  padding-left: 15px;
+}

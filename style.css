@@ -106,10 +106,14 @@ img {
   color: var(--bright-orange);
 }
 @media screen and (max-width: 600px) {
+  body {
+    height: 100%;
+  }
   main {
     max-width: 350px;
-    min-height: 100vh;
+
     flex-direction: column;
+    margin: 1rem;
   }
   main > div {
     min-height: 360px;
